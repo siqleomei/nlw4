@@ -108,3 +108,16 @@
     background-color: #2fb86e;
 }
 
+/*
+    fr = frações, se adequa ao tamanho da tela 
+    gap = Coloca margin entre os itens da grid
+*/
+#page-create-point .itens-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+#page-create-point li {
+    background-color: #f5f5f5;
+}
