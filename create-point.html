@@ -50,10 +50,10 @@
                     <div class="field-group">
                         <div class="field">
                             <label for="uf">Estado</label>
-                            <select name="uf">
+                            <select name="uf" required>
                                 <option value="">Selecione o estado</option>
                             </select>
-                            <input type="hidden" name="state" required>
+                            <input type="hidden" name="state">
                         </div>
 
                         <div class="field">
@@ -61,6 +61,7 @@
                             <select name="city" disabled required>
                                 <option value="">Selecione a cidade</option>
                             </select>
+                            <input type="hidden" name="city">
                         </div>
                     </div>
                 </fieldset>
@@ -101,6 +102,8 @@
                             <span>Óleos de cozinha</span>
                         </li>
                     </div>
+
+                    <input type="hidden" name="items">
                 </fieldset>
 
                 <button type="submit">Cadastrar ponto de coleta</button>
